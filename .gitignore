@@ -25,7 +25,7 @@
 /obj/
 
 # Rider
-/.idea/
+.idea/
 /Assets/Plugins/Editor/JetBrains/
 /Assets/Plugins/Editor/JetBrains.meta
 
