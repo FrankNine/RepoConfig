@@ -1,5 +1,7 @@
 # RepoConfig
 
+Please refer to https://www.chunfuchao.com/posts/unity-git-en for complete explanation and other using git with Unity information.
+
 ## Prerequisites
 This config assumes:
 - git
