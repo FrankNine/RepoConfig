@@ -1,6 +1,6 @@
 # Treat everything not text if not specified
 # Avoid crlf messing up things like .asset and ProjectSettings (But we'd like to diff so we do not assign binary[-text -diff] tag)
-# You should never do line ending conversion on .asset, .asset could be CRLF(ProjectSettings) LF(Tile set config) or binary even if forced text(Lighting and Terrain Data)
+# You should never do line ending conversion on .asset, .asset could be CRLF(ProjectSettings) LF(Tile set config) or binary even if forced text(Lighting, Terrain and NavMesh Data)
 * -text
 
 # Unity visible meta is LF regardless of created platform
@@ -76,6 +76,7 @@
 
 # Unity
 LightingData.asset filter=lfs diff=lfs merge=lfs
+NavMesh.asset      filter=lfs diff=lfs merge=lfs
 *.cubemap          filter=lfs diff=lfs merge=lfs
 
 # Texture
