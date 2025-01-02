@@ -9,6 +9,8 @@
 # Added in Unity 2020, shall be ignored according to Aras
 # https://forum.unity.com/threads/whats-the-usersettings-directory.754436/#post-5029937
 /UserSettings/
+# New Unity 6 Android build temp folder?
+/.utmp/
 
 # Unity Generated Solution files
 /*.sln
