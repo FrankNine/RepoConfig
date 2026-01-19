@@ -21,9 +21,10 @@
 *.cs         text eol=lf
 *.json       text eol=lf
 
-# ShaderLab
+# Shader
 *.cginc      text eol=lf
 *.shader     text eol=lf
+*.hlsl       text eol=lf
 
 # Gradle property
 *.properties text eol=lf
@@ -106,7 +107,7 @@ NavMesh.asset      filter=lfs diff=lfs merge=lfs
 *.assbin  filter=lfs diff=lfs merge=lfs
 
 
-# Shader
+
 # Unity shader graph, almost unreadable text file
 *.shadersubgraph filter=lfs diff=lfs merge=lfs
 
@@ -124,6 +125,9 @@ NavMesh.asset      filter=lfs diff=lfs merge=lfs
 *.zpr   filter=lfs diff=lfs merge=lfs
 # Blender
 *.blend filter=lfs diff=lfs merge=lfs
+# SpeedTree
+*.st    filter=lfs diff=lfs merge=lfs
+*.spm   filter=lfs diff=lfs merge=lfs
 
 # Audio
 *.aif  filter=lfs diff=lfs merge=lfs
